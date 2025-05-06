@@ -22,16 +22,13 @@ Churn prediction is essential for businesses to retain customers. By predicting 
 ## 📁 Project Structure
 
 ```
-
 customer-churn-prediction/
-│
-├── data/ # Sample datasets (anonymized)
-├── notebooks/ # Jupyter notebooks for EDA, preprocessing, modeling
-├── models/ # Saved models (Pickle or JSON)
-├── reports/ # Power BI files or images
-├── src/ # Python scripts
-└── README.md # Project overview
-
+├── data/         # Sample datasets (anonymized)
+├── notebooks/    # Jupyter notebooks for EDA, preprocessing, modeling
+├── models/       # Saved models (Pickle or JSON)
+├── reports/      # Power BI files or images
+├── src/          # Python scripts
+└── README.md     # Project overview
 ```
 
 ---
