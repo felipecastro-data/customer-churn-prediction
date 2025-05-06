@@ -21,6 +21,8 @@ Churn prediction is essential for businesses to retain customers. By predicting 
 
 ## 📁 Project Structure
 
+```
+
 customer-churn-prediction/
 │
 ├── data/ # Sample datasets (anonymized)
@@ -29,6 +31,8 @@ customer-churn-prediction/
 ├── reports/ # Power BI files or images
 ├── src/ # Python scripts
 └── README.md # Project overview
+
+```
 
 ---
 
