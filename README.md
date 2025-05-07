@@ -1,21 +1,21 @@
 # 📉 Customer Churn Prediction
 
-This project uses machine learning (XGBoost) to predict customer churn based on behavioral and demographic data. It includes data cleaning, feature engineering, model training, and Power BI integration to visualize results and key metrics for decision-makers.
+This end-to-end project predicts customer churn using machine learning (XGBoost) and visualizes insights with Power BI. It covers data cleaning, feature engineering, modeling, and the creation of a business-ready dashboard to identify key churn drivers and at-risk customer segments.
 
 ---
 
 ## 🧠 Problem Statement
 
-Churn prediction is essential for businesses to retain customers. By predicting churn before it happens, companies can take proactive actions to reduce revenue loss.
+Customer churn affects recurring revenue and business growth. By predicting churn based on behavioral and demographic patterns, companies can act early to retain valuable customers.
 
 ---
 
 ## 🛠️ Tech Stack
 
-- Python (Pandas, XGBoost, Scikit-learn, Matplotlib)
-- Jupyter Notebooks
-- Power BI for final insights dashboard
-- Git & GitHub for version control
+- **Python**: pandas, scikit-learn, XGBoost
+- **Jupyter Notebooks**: EDA, preprocessing, modeling
+- **Power BI**: executive dashboard with interactive insights
+- **Git & GitHub**: version control and project tracking
 
 ---
 
@@ -23,36 +23,44 @@ Churn prediction is essential for businesses to retain customers. By predicting 
 
 ```
 customer-churn-prediction/
-├── data/         # Sample datasets (anonymized)
-├── notebooks/    # Jupyter notebooks for EDA, preprocessing, modeling
-├── models/       # Saved models (Pickle or JSON)
-├── reports/      # Power BI files or images
-├── src/          # Python scripts
-└── README.md     # Project overview
+├── data/ # CSV files (raw, cleaned, and feature importance)
+├── notebooks/ # Jupyter notebooks for each stage
+├── models/ # Model artifacts
+├── reports/ # Power BI report (.pbix) and screenshots
+├── src/ # Python utility scripts
+└── README.md # Project overview
 ```
 
 ---
 
 ## 📊 Power BI Dashboard
 
-> Final report designed for business stakeholders. Includes KPIs like predicted churn %, feature importance, and customer segmentation.
+> Final business report includes two pages:
+- **Churn Drivers**: Feature importance, top drivers, and churn distribution
+- **Churn Segments**: Key customer profiles based on service usage, contracts, and demographics
 
-*📷 (Insert image or link when ready)*
+📸 **Screenshots**:  
+![Churn Drivers](./reports/customer_churn_dashboard_page1_drivers.png)  
+![Churn Segments](./reports/customer_churn_dashboard_page2_segments.png)
+
+📂 **File**: [`customer_churn_report.pbix`](./reports/customer_churn_report.pbix)
 
 ---
 
 ## 🚀 Key Insights
 
-- XGBoost model reached **89% accuracy**.
-- Top churn drivers identified: contract type, customer support calls, and tenure.
-- Segment-based churn probabilities highlighted retention opportunities.
+- The model achieved **89% accuracy** using XGBoost.
+- Customers without device protection or streaming services are more likely to churn.
+- Those on **month-to-month contracts** and with **medium charges** are at the highest risk.
+- Senior citizens and customers in their **13–36 month tenure window** also show high churn rates.
 
 ---
 
-## 📌 Next Steps
+## 🔮 Next Steps
 
-- Integrate with a live dashboard via Power BI REST API.
-- Build an alert system for high-risk churn cases.
+- Integrate with Power BI REST API for auto-refresh and alerts.
+- Deploy as a predictive service via Azure Functions or Streamlit.
+- Expand to lifetime value (LTV) modeling.
 
 ---
 
@@ -66,7 +74,7 @@ Analytics Engineer @ EPAM Systems
 
 ---
 
-## 🧠 Tools & Libraries
+## 🧰 Tools & Libraries
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
 ![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?style=flat&logo=powerbi&logoColor=black)
