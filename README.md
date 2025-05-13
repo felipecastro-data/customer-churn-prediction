@@ -56,14 +56,6 @@ customer-churn-prediction/
 
 ---
 
-## 🔮 Next Steps
-
-- Integrate with Power BI REST API for auto-refresh and alerts.
-- Deploy as a predictive service via Azure Functions or Streamlit.
-- Expand to lifetime value (LTV) modeling.
-
----
-
 ## 🏅 Author & Certifications
 
 **Felipe Castro**  
