@@ -49,7 +49,6 @@ customer-churn-prediction/
 
 ## 🚀 Key Insights
 
-- The model achieved **89% accuracy** using XGBoost.
 - Customers without device protection or streaming services are more likely to churn.
 - Those on **month-to-month contracts** and with **medium charges** are at the highest risk.
 - Senior citizens and customers in their **13–36 month tenure window** also show high churn rates.
